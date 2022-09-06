@@ -13,5 +13,7 @@
         public DateTime Created { get; set; }
 
         public DateTime Date { get; set; }
+
+        public TennisCourt TennisCourt { get; set; }
     }
 }
