@@ -12,7 +12,7 @@ namespace TennisClubApi.BusinessProviders
         {
             _tennisContext = tennisContext;
         }
-        public long GetUserId(string code)
+        public long GetUserTypeId(string code)
         {
             return _tennisContext.UserType.FirstOrDefault(s => s.Code == code).Id;
         }

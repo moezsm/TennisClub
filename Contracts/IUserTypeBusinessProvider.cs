@@ -7,6 +7,6 @@ namespace TennisClubApi.Contracts
         List<UserType> GetUserTypes();
         UserType GetUserType(long id);
 
-        long GetUserId(string code);
+        long GetUserTypeId(string code);
     }
 }
